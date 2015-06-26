@@ -40,3 +40,31 @@ Navigate to project folder and run `mvn clean test`
 
 ## Check Reports
 Report files are under the project folder with the name `CombineTest*.html`
+
+## Maven commands
+<ol>
+<li>mvn test</li>
+<pre>
+Run All the tests
+</pre>
+<li>mvn mvn -Dtest=TestCircle test</li>
+<pre>
+Specify a test class(Change TestCircle to the class name, for example, CombineTest.java, just use CombineTest) to run
+</pre>
+<li>mvn mvn -Dtest=TestCircle#xyz test</li>
+<pre>
+Run a specified test method in a class. Change xyz to the method name
+</pre>
+</ol>
+
+## Method query
+| Description  | command para | ClassName/MethodName |
+| :------------ |:---------------:| :-----|
+| ToolBar Test      | CombineTest | ClassName |
+| SignIn/Off Test     | SignInTest        |   ClassName |
+| Pen thickness Test | CombineTest#penThickness       | MethodName   |
+| Pen color Test | CombineTest#penColor       | MethodName   |
+| Page Navigation Test | CombineTest#pageNavigation       | MethodName   |
+| Zoom and Scale Test | CombineTest#zoomAndScale       | MethodName   |
+| Signin with valid info Test | SignInTest#signInWithValidInfo       | MethodName   |
+| Signin witn invalid info Test | SignInTest#signInWithInvalidInfo       | MethodName   |
