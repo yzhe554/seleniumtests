@@ -38,3 +38,5 @@ Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonab
 ## Run tests with command line
 Navigate to project folder and run `mvn clean test`
 
+## Check Reports
+Reprt files are under the project folder with the name `CombineTest*.html`
