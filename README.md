@@ -1,3 +1,5 @@
+### Run with dataProvider
+`http://www.mkyong.com/unittest/testng-tutorial-6-parameterized-test/`
 # seleniumtests
 
 # For MacOs
